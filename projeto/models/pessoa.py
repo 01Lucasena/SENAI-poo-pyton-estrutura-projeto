@@ -1,5 +1,5 @@
-from models.enum.sexo import Sexo
-from endereco import Endereco
+from projeto.models.enum.sexo import Sexo
+from projeto.models.endereco import Endereco
 
 class Pessoa:
     def __init__(self, nome:str, idade:int, sexo:Sexo, endereco:Endereco) -> None:
