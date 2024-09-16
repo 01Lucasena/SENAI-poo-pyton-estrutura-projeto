@@ -13,3 +13,6 @@ def criar_pessoa():
 
 def test_pessoa_atributo_nome(criar_pessoa):
     assert criar_pessoa.nome == "Lucas"
+
+def test_endereco_logradouro_de_pessoa(criar_pessoa):
+    assert criar_pessoa.endereco.logradouro == "Rua A"
